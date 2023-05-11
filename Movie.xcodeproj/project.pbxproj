@@ -21,6 +21,10 @@
 		ECB0006A2A0D2B67009114D5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000692A0D2B67009114D5 /* UILabel+Ext.swift */; };
 		ECB0006D2A0D301A009114D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0006C2A0D301A009114D5 /* Constants.swift */; };
 		ECB0006F2A0D312E009114D5 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0006E2A0D312E009114D5 /* APIURLs.swift */; };
+		ECB000722A0D7805009114D5 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000712A0D7805009114D5 /* Content.swift */; };
+		ECB000742A0D803C009114D5 /* ContentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000732A0D803C009114D5 /* ContentDetail.swift */; };
+		ECB000762A0D84E7009114D5 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000752A0D84E7009114D5 /* SearchModel.swift */; };
+		ECB000782A0D8682009114D5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000772A0D8682009114D5 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		ECB000692A0D2B67009114D5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 		ECB0006C2A0D301A009114D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECB0006E2A0D312E009114D5 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
+		ECB000712A0D7805009114D5 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		ECB000732A0D803C009114D5 /* ContentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetail.swift; sourceTree = "<group>"; };
+		ECB000752A0D84E7009114D5 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		ECB000772A0D8682009114D5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 				ECB000582A0D12FC009114D5 /* Support */,
 				ECB000642A0D20A8009114D5 /* Extensions */,
 				ECB0006B2A0D2FC3009114D5 /* Utilites */,
+				ECB000702A0D68B2009114D5 /* Models */,
 				ECB000632A0D1E3A009114D5 /* Controllers */,
 				ECB000572A0D12F2009114D5 /* Screens */,
 			);
@@ -137,6 +146,17 @@
 				ECB0006E2A0D312E009114D5 /* APIURLs.swift */,
 			);
 			path = Utilites;
+			sourceTree = "<group>";
+		};
+		ECB000702A0D68B2009114D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECB000712A0D7805009114D5 /* Content.swift */,
+				ECB000732A0D803C009114D5 /* ContentDetail.swift */,
+				ECB000752A0D84E7009114D5 /* SearchModel.swift */,
+				ECB000772A0D8682009114D5 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,14 +232,18 @@
 				ECB000662A0D20BE009114D5 /* UIView+Ext.swift in Sources */,
 				ECB0006D2A0D301A009114D5 /* Constants.swift in Sources */,
 				ECB0005F2A0D13B7009114D5 /* SearchVC.swift in Sources */,
+				ECB000762A0D84E7009114D5 /* SearchModel.swift in Sources */,
 				ECB000422A0D0F58009114D5 /* AppDelegate.swift in Sources */,
 				ECB0006F2A0D312E009114D5 /* APIURLs.swift in Sources */,
 				ECB0005B2A0D1377009114D5 /* MoviesVC.swift in Sources */,
 				ECB0006A2A0D2B67009114D5 /* UILabel+Ext.swift in Sources */,
+				ECB000722A0D7805009114D5 /* Content.swift in Sources */,
+				ECB000742A0D803C009114D5 /* ContentDetail.swift in Sources */,
 				ECB000562A0D12D1009114D5 /* MainTabBarController.swift in Sources */,
 				ECB000622A0D13E4009114D5 /* WatchlistVC.swift in Sources */,
 				ECB000442A0D0F58009114D5 /* SceneDelegate.swift in Sources */,
 				ECB000682A0D29E0009114D5 /* UICollectionView+Ext.swift in Sources */,
+				ECB000782A0D8682009114D5 /* Person.swift in Sources */,
 				ECB0005D2A0D1395009114D5 /* ShowsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
