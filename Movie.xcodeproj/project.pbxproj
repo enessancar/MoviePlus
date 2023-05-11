@@ -16,6 +16,9 @@
 		ECB0005D2A0D1395009114D5 /* ShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0005C2A0D1395009114D5 /* ShowsVC.swift */; };
 		ECB0005F2A0D13B7009114D5 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB0005E2A0D13B7009114D5 /* SearchVC.swift */; };
 		ECB000622A0D13E4009114D5 /* WatchlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000612A0D13E4009114D5 /* WatchlistVC.swift */; };
+		ECB000662A0D20BE009114D5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000652A0D20BE009114D5 /* UIView+Ext.swift */; };
+		ECB000682A0D29E0009114D5 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000672A0D29E0009114D5 /* UICollectionView+Ext.swift */; };
+		ECB0006A2A0D2B67009114D5 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000692A0D2B67009114D5 /* UILabel+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		ECB0005C2A0D1395009114D5 /* ShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsVC.swift; sourceTree = "<group>"; };
 		ECB0005E2A0D13B7009114D5 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		ECB000612A0D13E4009114D5 /* WatchlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistVC.swift; sourceTree = "<group>"; };
+		ECB000652A0D20BE009114D5 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		ECB000672A0D29E0009114D5 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		ECB000692A0D2B67009114D5 /* UILabel+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB000582A0D12FC009114D5 /* Support */,
+				ECB000642A0D20A8009114D5 /* Extensions */,
 				ECB000632A0D1E3A009114D5 /* Controllers */,
 				ECB000572A0D12F2009114D5 /* Screens */,
 			);
@@ -106,6 +113,16 @@
 				ECB000552A0D12D1009114D5 /* MainTabBarController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECB000642A0D20A8009114D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECB000652A0D20BE009114D5 /* UIView+Ext.swift */,
+				ECB000672A0D29E0009114D5 /* UICollectionView+Ext.swift */,
+				ECB000692A0D2B67009114D5 /* UILabel+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,12 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB000662A0D20BE009114D5 /* UIView+Ext.swift in Sources */,
 				ECB0005F2A0D13B7009114D5 /* SearchVC.swift in Sources */,
 				ECB000422A0D0F58009114D5 /* AppDelegate.swift in Sources */,
 				ECB0005B2A0D1377009114D5 /* MoviesVC.swift in Sources */,
+				ECB0006A2A0D2B67009114D5 /* UILabel+Ext.swift in Sources */,
 				ECB000562A0D12D1009114D5 /* MainTabBarController.swift in Sources */,
 				ECB000622A0D13E4009114D5 /* WatchlistVC.swift in Sources */,
 				ECB000442A0D0F58009114D5 /* SceneDelegate.swift in Sources */,
+				ECB000682A0D29E0009114D5 /* UICollectionView+Ext.swift in Sources */,
 				ECB0005D2A0D1395009114D5 /* ShowsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
