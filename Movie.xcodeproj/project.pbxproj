@@ -25,6 +25,10 @@
 		ECB000742A0D803C009114D5 /* ContentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000732A0D803C009114D5 /* ContentDetail.swift */; };
 		ECB000762A0D84E7009114D5 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000752A0D84E7009114D5 /* SearchModel.swift */; };
 		ECB000782A0D8682009114D5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000772A0D8682009114D5 /* Person.swift */; };
+		ECB000812A0D88FA009114D5 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000802A0D88FA009114D5 /* SectionView.swift */; };
+		ECB000832A0D8968009114D5 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000822A0D8968009114D5 /* TitleLabel.swift */; };
+		ECB000852A0D8A5C009114D5 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000842A0D8A5C009114D5 /* UIHelper.swift */; };
+		ECB000872A0E79B6009114D5 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB000862A0E79B6009114D5 /* BodyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		ECB000732A0D803C009114D5 /* ContentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetail.swift; sourceTree = "<group>"; };
 		ECB000752A0D84E7009114D5 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		ECB000772A0D8682009114D5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ECB000802A0D88FA009114D5 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		ECB000822A0D8968009114D5 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		ECB000842A0D8A5C009114D5 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		ECB000862A0E79B6009114D5 /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 				ECB000642A0D20A8009114D5 /* Extensions */,
 				ECB0006B2A0D2FC3009114D5 /* Utilites */,
 				ECB000702A0D68B2009114D5 /* Models */,
+				ECB0007B2A0D8780009114D5 /* CustomViews */,
 				ECB000632A0D1E3A009114D5 /* Controllers */,
 				ECB000572A0D12F2009114D5 /* Screens */,
 			);
@@ -144,6 +153,7 @@
 			children = (
 				ECB0006C2A0D301A009114D5 /* Constants.swift */,
 				ECB0006E2A0D312E009114D5 /* APIURLs.swift */,
+				ECB000842A0D8A5C009114D5 /* UIHelper.swift */,
 			);
 			path = Utilites;
 			sourceTree = "<group>";
@@ -157,6 +167,48 @@
 				ECB000772A0D8682009114D5 /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ECB0007B2A0D8780009114D5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				ECB0007C2A0D8791009114D5 /* Views */,
+				ECB0007D2A0D8796009114D5 /* ImageViews */,
+				ECB0007E2A0D87A6009114D5 /* Labels */,
+				ECB0007F2A0D87AB009114D5 /* Cells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		ECB0007C2A0D8791009114D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECB000802A0D88FA009114D5 /* SectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECB0007D2A0D8796009114D5 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		ECB0007E2A0D87A6009114D5 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				ECB000822A0D8968009114D5 /* TitleLabel.swift */,
+				ECB000862A0E79B6009114D5 /* BodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		ECB0007F2A0D87AB009114D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +292,13 @@
 				ECB000722A0D7805009114D5 /* Content.swift in Sources */,
 				ECB000742A0D803C009114D5 /* ContentDetail.swift in Sources */,
 				ECB000562A0D12D1009114D5 /* MainTabBarController.swift in Sources */,
+				ECB000812A0D88FA009114D5 /* SectionView.swift in Sources */,
+				ECB000872A0E79B6009114D5 /* BodyLabel.swift in Sources */,
 				ECB000622A0D13E4009114D5 /* WatchlistVC.swift in Sources */,
 				ECB000442A0D0F58009114D5 /* SceneDelegate.swift in Sources */,
 				ECB000682A0D29E0009114D5 /* UICollectionView+Ext.swift in Sources */,
+				ECB000852A0D8A5C009114D5 /* UIHelper.swift in Sources */,
+				ECB000832A0D8968009114D5 /* TitleLabel.swift in Sources */,
 				ECB000782A0D8682009114D5 /* Person.swift in Sources */,
 				ECB0005D2A0D1395009114D5 /* ShowsVC.swift in Sources */,
 			);
